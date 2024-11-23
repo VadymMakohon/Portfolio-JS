@@ -3,6 +3,9 @@ This is a personal portfolio website showcasing my skills, projects, and experie
 
 ## Preview ![preview](https://github.com/user-attachments/assets/b18e0236-027e-4cbf-8e3f-4bbb163f156b)
 
+## Sample Website
+A live demo is already available via this [link](https://vadymmakohon.github.io/Portfolio-JS/)
+
 ## Table of Contents
 - Live Demo
 - Features
