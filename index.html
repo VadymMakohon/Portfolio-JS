@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tog.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <div class="nav-links">
+                <button onclick="scrollToSection('about')">About</button>
+                <button onclick="scrollToSection('my-projects')">Projects</button>
+                <button onclick="scrollToSection('skills')">Skills</button>
+                <button onclick="scrollToSection('contact')">Contact</button>
+                <button id="theme-toggle" class="theme-button">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <body>
+        <div id="root"></div>
+        <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to my portfolio</h2>
+            <h1>Hi, I'm <span class="highlight">Julia Shestnik</span></h1>
+            <p>Student</p>
+            <button onclick="scrollToSection('my-projects')" class="cta-button">
+                View my work
+                <span class="arrow-down">↓</span>
+            </button>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate Student curently building foundations to improve in both frontend and backend
+                technologies.
+            </p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <h3>Education</h3>
+                    <p>
+                        12 Passout <br>
+                        Global School of Science,2022-2024
+                    </p>
+                </div>
+                <div class="about-item">
+                    <h3>Experience</h3>
+                    <p>
+                        Student Working on different projects<br>
+                        Multiple personal projects completed
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <section id="what-i-do" class="what-i-do">
+        <div class="container">
+            <h2>What I am interested in</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"></div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and dynamic web applications using modern technologies.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"></div>
+                    <h3>App Development</h3>
+                    <p>Creating native and cross-platform mobile applications.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and beautiful user interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2>My Journey</h2>
+            <div class="timeline-grid">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Implementing Knowledge</h3>
+                        <span class="date">2024 - Present</span>
+                        <p>Completing different self assigned projects to implement everything I have learned</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Self learning</h3>
+                        <span class="date">2024-present</span>
+                        <p>Creating a Strong foundation for different programming languages
+                        <p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>College Student</h3>
+                        <span class="date">2022-2024</span>
+                        <p>Learning the basics of both HTML and CSS
+                        <p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="my-projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" alt="Project 1">
+                    <div class="project-content">
+                        <h3>Project One</h3>
+                        <p>A full-stack web application built with modern technologies</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="https://github.com/Jubin-Shrestha/Jubin-Shrestha.github.io"
+                                class="project-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" alt="Project 2">
+                    <div class="project-content">
+                        <h3>Project Two</h3>
+                        <p>Mobile-first responsive design with modern UI/UX</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>My Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="Phone.png" alt="Blog Post 1">
+                    <div class="blog-content">
+                        <h3>The best Smart Phones of the year 2024</h3>
+                        <p>Ranking Some of the best Smart Phones of 2024 in respect to different aspects</p>
+                        <a href="Blogs/Best smartphones for 2024/indexsmartphone.html" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" alt="Blog Post 2">
+                    <div class="blog-content">
+                        <h3>The Future of Frontend Development</h3>
+                        <p>Insights into upcoming technologies and frameworks</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java Script</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 35%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="container">
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frameworks</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 23%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Tailwind</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 35%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-description">
+                Feel free to reach out if you're looking for a developer, have a question, or just want to connect.
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/Julia-Shestnik" target="_blank" rel="noopener noreferrer"
+                    class="contact-link">
+                    <span class="contact-icon">🔗</span>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/julia-shestnik-4a8562310/" target="_blank"
+                    rel="noopener noreferrer" class="contact-link">
+                    <span class="contact-icon">💼</span>
+                    LinkedIn
+                </a>
+                <a href="mailto:juliashestik@gmail.com" class="contact-link">
+                    <span class="contact-icon">✉️</span>
+                    Email
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
