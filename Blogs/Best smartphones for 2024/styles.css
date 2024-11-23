@@ -1,0 +1,163 @@
+:root {
+  --primary: #9b87f5;
+  --secondary: #7E69AB;
+  --muted: #F1F0FB;
+  --muted-foreground: #6E59A5;
+  --background: #ffffff;
+  --foreground: #1A1F2C;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: var(--foreground);
+  background: var(--background);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.hero {
+  position: relative;
+  height: 70vh;
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  color: white;
+  padding: 2rem;
+}
+.hero-content {
+  max-width: 600px;
+  margin-top: 4rem;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.chip {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+.primary-button {
+  padding: 0.75rem 2rem;
+  background: white;
+  color: var(--primary);
+  border: none;
+  border-radius: 999px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.primary-button:hover {
+  opacity: 0.9;
+}
+.phone-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.section-header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+.section-header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.phone-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.phone-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+.phone-image {
+  position: relative;
+  aspect-ratio: 3/4;
+  margin-bottom: 1rem;
+}
+.phone-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.phone-rating {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: var(--secondary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+.phone-details h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.phone-price {
+  color: var(--primary);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.phone-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.spec-chip {
+  background: var(--muted);
+  color: var(--muted-foreground);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+}
+.phone-features {
+  font-size: 0.875rem;
+}
+.phone-features h4 {
+  margin-bottom: 0.5rem;
+}
+.phone-features ul {
+  list-style: none;
+}
+.phone-features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+.phone-features li::before {
+  content: "•";
+  margin-right: 0.5rem;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 4rem 1rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .container {
+    padding: 1rem;
+  }
+}
