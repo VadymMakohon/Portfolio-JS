@@ -1,7 +1,7 @@
 # Portfolio Website
 This is a personal portfolio website showcasing my skills, projects, and experience. It serves as a platform to highlight my journey as a developer, my passion for learning, and the work I have accomplished so far. Built with modern web technologies, the site is designed to be responsive and user-friendly.
 
-## Preview ![preview](https://github.com/user-attachments/assets/b18e0236-027e-4cbf-8e3f-4bbb163f156b)
+## 🖥️ Preview ![preview](https://github.com/user-attachments/assets/b18e0236-027e-4cbf-8e3f-4bbb163f156b)
 
 ## Sample Website
 A live demo is already available via this [link](https://vadymmakohon.github.io/Portfolio-JS/)
